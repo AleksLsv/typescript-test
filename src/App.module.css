@@ -1,0 +1,46 @@
+.App {
+
+  padding-left: 20px;
+  margin: 0 auto;
+ /* display: grid;*/
+  width: 1500px;
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 1%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td {
+  background-color: wheat;
+}
+
+tbody {
+  background-color: white;
+}
+
+.true {
+  background-color: green;
+}
+
+.false {
+  background-color: red;
+}
+
+form {
+  margin-left: 1%;
+}
