@@ -93,7 +93,7 @@ const Form = (props: Props2) => {
     const handleSubmit = (event: React.FormEvent) => {
         event.preventDefault();
         const newRow: Row = {
-            id: props.state.length+1,//new Date().getTime(),
+            id: props.state.length+1,
             word: word
         };
         props.onAddRow(newRow);
